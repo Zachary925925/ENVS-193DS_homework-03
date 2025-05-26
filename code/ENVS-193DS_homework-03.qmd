@@ -4,6 +4,7 @@ author: "Zach Wang"
 format: html
 ---
 
+##Problem 1
 ##Part 1
 ```{r}
 library("tidyverse")
@@ -47,6 +48,18 @@ ggplot(mydata, aes(x = calories, #add data frame
 #c
 This scatter plot displays the relationship between my daily calories burned and sleep duration (in hours). Each point represents a day of recorded data, represent variation in sleep relative to physical activity. While no clear linear trend is evident, most of the observation are located at the left side of the graph, which means most days the calories burned are no more than 2900 cal. All the observation are less than 9 hours. And the observations at the left hand side show a wide range of spreading means huge variance of sleep time.
 
+#d
+```{r}
+
+summary_table <- mydata |> #data frame
+  group_by(calories) |> #adjust table
+  summarise(mean_sleeptime = round(mean(sleeptime, na.rm = TRUE), 1)) |> #calculation
+  rename( #rename labels
+    "Calories (cal)" = calories,
+    "Mean Sleep Time (Hours)" = mean_sleeptime
+  )
+flextable(summary_table) #showing tables
+```
 
 
 
