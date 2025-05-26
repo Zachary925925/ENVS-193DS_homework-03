@@ -16,8 +16,36 @@ library("janitor")
 #a.
 I could calculate the mean sleep time for different calorie ranges to see if there's a pattern in how sleep duration changes with daily energy expenditure. This comparison is informative because higher calorie burn might reflect more physical activity, which could influence sleep quality or duration.
 
+#b
+```{r}
+setwd("/Users/zach/Desktop/git/ENVS-193DS_homework-03/data")
+mydata <- read_csv("my_data.csv") |> #adding the data
+  clean_names()
+
+# using scatter plot to visusalize the data
+ggplot(mydata, aes(x = calories, #add data frame
+                   y = sleeptime,
+                   fill = calories)) +
+  geom_jitter(width = 0.2, #add plots
+              shape = 21,
+              alpha = 0.5,
+              color = "lightblue") + #change color of plots
+
+  labs(
+    title = "Average Sleep Duration by Calorie Burn ", #add labels
+    subtitle = "Zach Wang",
+    x = "Calorie Burned per day (cal)",
+    y = "Sleep Duration (Hours)"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none") #custom legends
 
 
+
+```
+
+#c
+This scatter plot displays the relationship between my daily calories burned and sleep duration (in hours). Each point represents a day of recorded data, represent variation in sleep relative to physical activity. While no clear linear trend is evident, most of the observation are located at the left side of the graph, which means most days the calories burned are no more than 2900 cal. All the observation are less than 9 hours. And the observations at the left hand side show a wide range of spreading means huge variance of sleep time.
 
 
 
