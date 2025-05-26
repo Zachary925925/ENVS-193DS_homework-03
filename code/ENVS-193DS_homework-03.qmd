@@ -4,6 +4,7 @@ author: "Zach Wang"
 format: html
 ---
 
+##Part 1
 ```{r}
 library("tidyverse")
 library("here")
@@ -11,6 +12,9 @@ library("flextable")
 library("janitor")
 ```
 
+##Part 2
+#a.
+I could calculate the mean sleep time for different calorie ranges to see if there's a pattern in how sleep duration changes with daily energy expenditure. This comparison is informative because higher calorie burn might reflect more physical activity, which could influence sleep quality or duration.
 
 
 
