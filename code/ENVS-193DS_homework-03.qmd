@@ -61,6 +61,8 @@ summary_table <- mydata |> #data frame
 flextable(summary_table) #showing tables
 ```
 
+##Problem 2
+#a.
 
 
 
