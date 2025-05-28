@@ -86,7 +86,8 @@ between protected and unprotected areas. And they are trying to figure out wheth
 
 insert pic
 
-
+#b.
+The authors clearly represent their statistics in figure. The x axes logically show site names, and the y axes display fish density and biomass on logarithmic scales, which is appropriate for skewed ecological data. They show summary statistics which are means with error bars representing standard error, but they do not display the underlying raw data, which limits visibility into data distribution.
 
 
 
