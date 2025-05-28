@@ -72,7 +72,7 @@ I designed symbols for each different observation. The symbol looks like a trian
 
 
 #c.
-![Draft of the personal figure](/Users/zach/Desktop/git/ENVS-193DS_homework-03/data/diagram2.jpg)
+![Draft of the personal figure](diagram2.jpg)
 
 #d.
 My photo is showing every individual observations I recorded. Stefanie Posavec and Grogia Lupi's Dear Data project inspired me to most via their icons. The form of my work is pencil drawing. At first, I was trying to present my data without the traditional axes since it looks boring and it takes time for people to gather the information for each observation. So I used shape of a triangle to represent the data of a single observation. Which means, now the information of a observation became more straight forward. If I want to add more information, I can also add color to the triangles to represent categorical data.
@@ -82,7 +82,7 @@ My photo is showing every individual observations I recorded. Stefanie Posavec a
 The t-test and Mann-Whitney test help the authors compare fish density, biomass, or size
 between protected and unprotected areas. And they are trying to figure out whether hydroacustics can reliably measure the differences compared to traditional visual survey.
 
-![Paper Figure](/Users/zach/Desktop/git/ENVS-193DS_homework-03/data/diagram.png)
+![Paper Figure](diagram.png)
 
 #b.
 The authors clearly represent their statistics in figure. The x axes logically show site names, and the y axes display fish density and biomass on logarithmic scales, which is appropriate for skewed ecological data. They show summary statistics which are means with error bars representing standard error, but they do not display the underlying raw data, which limits visibility into data distribution.
