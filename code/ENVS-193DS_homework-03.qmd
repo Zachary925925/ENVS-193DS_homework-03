@@ -92,7 +92,8 @@ The authors clearly represent their statistics in figure. The x axes logically s
 #c.
 The author handled visual clutter effectively in figure. They used distinct, vibrant colors for each site to differentiate groups without overloading the viewer, and grouped related comparisons for clarity. Both panels are clean and focused, with y axes labeled clearly, aiding interpretation across magnitudes. The data:ink ratio is high and nearly all graphical elements convey essential data, such as means with error bars and group lettering for significance, with minimal non informative decoration. This balance allows the viewer to quickly grasp differences in fish abundance across sites without spending more than 10 seconds.
 
-
+#d.
+To improve Figure 3, I recommend including the sample size for each site below the bars, which would provide helpful context for interpreting the means and variability. Instead of bar charts alone, the figure could incorporate boxplots or raw data points to display the distribution and potential outliers, offering a clearer picture of variation. Increasing the font size and clarity of the yaxis labels would improve legibility, especially since the log scale can be challenging to interpret. Also, adding a concise caption or subtitle explaining the main result of the figure would make it more accessible and informative at a glance.
 
 
 
