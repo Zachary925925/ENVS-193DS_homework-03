@@ -2,10 +2,11 @@
 title: "homework3"
 author: "Zach Wang"
 format: html
+date: May 28 2025
 ---
 
-##Problem 1
-##Part 1
+## Problem 1
+## Part 1
 ```{r}
 library("tidyverse")
 library("here")
@@ -67,7 +68,7 @@ I designed symbols for each different observation. The symbol looks like a trian
 
 #b.
 
-![Design of Affective Data](/Users/zach/Desktop/git/ENVS-193DS_homework-03/data/photon.jpg)
+![Design of Affective Data](photon.jpg)
 
 
 #c.
