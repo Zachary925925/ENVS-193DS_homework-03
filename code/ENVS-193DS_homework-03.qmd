@@ -67,12 +67,8 @@ I designed symbols for each different observation. The symbol looks like a trian
 
 #b.
 
-insert
-```{r}
-! [ ](photon.jpg)
+![](/Users/zach/Desktop/git/ENVS-193DS_homework-03/data/photon.jpg)
 
-print(getwd())
-```
 
 #c.
 insert
@@ -84,7 +80,7 @@ My photo is showing every individual observations I recorded. Stefanie Posavec a
 #a.The t-test and Mann-Whitney test help the authors compare fish density, biomass, or size
 between protected and unprotected areas. And they are trying to figure out whether hydroacustics can reliably measure the differences compared to traditional visual survey.
 
-insert pic
+![](/Users/zach/Desktop/git/ENVS-193DS_homework-03/data/diagram.png)
 
 #b.
 The authors clearly represent their statistics in figure. The x axes logically show site names, and the y axes display fish density and biomass on logarithmic scales, which is appropriate for skewed ecological data. They show summary statistics which are means with error bars representing standard error, but they do not display the underlying raw data, which limits visibility into data distribution.
