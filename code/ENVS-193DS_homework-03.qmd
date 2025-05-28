@@ -63,9 +63,28 @@ flextable(summary_table) #showing tables
 
 ##Problem 2
 #a.
+I designed symbols for each different observation. The symbol looks like a triangle, the height of the triangle represent the sleep time. The width of the triangle represent the the calories I burned in the same day. On the top there is a bar, which means I did 5km running in that day. If there is no bar, then I did not do running that day. Now I can use the size and shape of triangle to fully communicate with others about my data.
 
+#b.
 
+insert
+```{r}
+! [ ](photon.jpg)
 
+print(getwd())
+```
+
+#c.
+insert
+
+#d.
+My photo is showing every individual observations I recorded. Stefanie Posavec and Grogia Lupi's Dear Data project inspired me to most via their icons. The form of my work is pencil drawing. At first, I was trying to present my data without the traditional axes since it looks boring and it takes time for people to gather the information for each observation. So I used shape of a triangle to represent the data of a single observation. Which means, now the information of a observation became more straight forward. If I want to add more information, I can also add color to the triangles to represent categorical data.
+
+##Problem 3
+#a.The t-test and Mann-Whitney test help the authors compare fish density, biomass, or size
+between protected and unprotected areas. And they are trying to figure out whether hydroacustics can reliably measure the differences compared to traditional visual survey.
+
+insert pic
 
 
 
