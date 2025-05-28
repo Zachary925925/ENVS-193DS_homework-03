@@ -89,6 +89,16 @@ insert pic
 #b.
 The authors clearly represent their statistics in figure. The x axes logically show site names, and the y axes display fish density and biomass on logarithmic scales, which is appropriate for skewed ecological data. They show summary statistics which are means with error bars representing standard error, but they do not display the underlying raw data, which limits visibility into data distribution.
 
+#c.
+The author handled visual clutter effectively in figure. They used distinct, vibrant colors for each site to differentiate groups without overloading the viewer, and grouped related comparisons for clarity. Both panels are clean and focused, with y axes labeled clearly, aiding interpretation across magnitudes. The data:ink ratio is high and nearly all graphical elements convey essential data, such as means with error bars and group lettering for significance, with minimal non informative decoration. This balance allows the viewer to quickly grasp differences in fish abundance across sites without spending more than 10 seconds.
+
+
+
+
+
+
+
+
 
 
 
